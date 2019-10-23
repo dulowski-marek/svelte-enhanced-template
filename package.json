@@ -1,7 +1,14 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "sapper-enhanced-template",
+  "description": "Sapper template enhanced with SCSS support",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": "https://github.com/dulowski-marek/sapper-enhanced-template",
+  "author": {
+    "email": "dulowski.marek@gmail.com",
+    "name": "Marek Dulowski",
+    "url": "https://dulowski.com"
+  },
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
@@ -17,10 +24,14 @@
     "sirv": "^0.4.0"
   },
   "devDependencies": {
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "sapper": "^0.27.0",
+    "sass-loader": "^8.0.0",
     "svelte": "^3.0.0",
     "svelte-loader": "^2.9.0",
+    "svelte-preprocess-sass": "^0.2.0",
     "webpack": "^4.7.0"
   }
 }
